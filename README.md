@@ -35,16 +35,12 @@ evaluation.evalrank("$SAVE_PATH/model_best.pth.tar", data_path="$DATA_PATH", spl
 ```
 
 ##Reference
+
 If you found this code useful, please cite the following paper:
 ```
 @article{DBLP:journals/tmm/ChenSZXS21,
-  author    = {Feiyu Chen and
-               Jie Shao and
-               Yonghui Zhang and
-               Xing Xu and
-               Heng Tao Shen},
-  title     = {Interclass-Relativity-Adaptive Metric Learning for Cross-Modal Matching
-               and Beyond},
+  author    = {Feiyu Chen and Jie Shao and Yonghui Zhang and Xing Xu and Heng Tao Shen},
+  title     = {Interclass-Relativity-Adaptive Metric Learning for Cross-Modal Matching and Beyond},
   journal   = {{IEEE} Trans. Multim.},
   volume    = {23},
   pages     = {3073--3084},
