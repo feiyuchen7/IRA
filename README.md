@@ -12,6 +12,8 @@ The code has been tested running under Python 3.5.2. The required packages are a
 ## Data
 Download data following the instructions [here](https://github.com/kuanghuei/SCAN#download-data).
 
+We also provide our pretrained checkpoints and log files [here](https://drive.google.com/drive/folders/1q2H4BM9GPJaxBS4p819nMW_ZIelAcEfB?usp=sharing).
+
 ## Training
 * MS-COCO dataset
 `python train.py --data_path ./data --data_name coco_precomp --vocab_path ./vocab --logger_name "$LOG_PATH" --model_name "$SAVE_PATH" --max_violation --bi_gru --margin 0.1 --alpha 4 --beta 1`
@@ -34,7 +36,7 @@ import evaluation
 evaluation.evalrank("$SAVE_PATH/model_best.pth.tar", data_path="$DATA_PATH", split="test")
 ```
 
-##Reference
+## Reference
 
 If you found this code useful, please cite the following paper:
 ```
