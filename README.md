@@ -16,9 +16,11 @@ We also provide our pretrained checkpoints and log files [here](https://drive.go
 
 ## Training
 * MS-COCO dataset
+
 `python train.py --data_path ./data --data_name coco_precomp --vocab_path ./vocab --logger_name "$LOG_PATH" --model_name "$SAVE_PATH" --max_violation --bi_gru --margin 0.1 --alpha 4 --beta 1`
 
 * Flickr30K dataset
+
 `python train.py --data_path ./data --data_name f30k_precomp --vocab_path ./vocab --logger_name "$LOG_PATH" --model_name "$SAVE_PATH" --max_violation --bi_gru --margin 0.1 --alpha 3 --beta 1`
 
 ## Evaluation
